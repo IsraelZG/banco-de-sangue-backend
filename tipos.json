@@ -1,0 +1,69 @@
+[
+  {
+    "tipo": "A+",
+    "recebeDe": [
+      "A+",
+      "A-",
+      "O+",
+      "O-"
+    ]
+  },
+  {
+    "tipo": "A-",
+    "recebeDe": [
+      "A-",
+      "O-"
+    ]
+  },
+  {
+    "tipo": "B+",
+    "recebeDe": [
+      "B+",
+      "B-",
+      "O+",
+      "O-"
+    ]
+  },
+  {
+    "tipo": "B-",
+    "recebeDe": [
+      "B-",
+      "O-"
+    ]
+  },
+  {
+    "tipo": "AB+",
+    "recebeDe": [
+      "A+",
+      "B+",
+      "O+",
+      "AB+",
+      "A-",
+      "B-",
+      "O-",
+      "AB-"
+    ]
+  },
+  {
+    "tipo": "AB-",
+    "recebeDe": [
+      "A-",
+      "B-",
+      "O-",
+      "AB-"
+    ]
+  },
+  {
+    "tipo": "O+",
+    "recebeDe": [
+      "O+",
+      "O-"
+    ]
+  },
+  {
+    "tipo": "O-",
+    "recebeDe": [
+      "O-"
+    ]
+  }
+]

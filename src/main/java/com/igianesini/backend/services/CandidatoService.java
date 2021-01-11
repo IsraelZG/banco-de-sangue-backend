@@ -33,7 +33,6 @@ public class CandidatoService {
 		ObjectMapper objectMapper = new ObjectMapper();
 	    DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
 	    objectMapper.setDateFormat(df);
-	    /*String response = "Nenhum registro inserido, por favor verifique";*/
 	    
 	    File data = new File("data.json");
 	    
@@ -49,9 +48,7 @@ public class CandidatoService {
 			    	candidatos.add(candidato);
 		    	}
 		    }
-		    /*response = "Inseridos " + String.valueOf(repo.saveAll(candidatos).size()) + " registros no banco de dados";*/
 	    }
-	    /*return response;*/
 	}
 	
 	public List<EstadoDTO> getCandidatosPorEstado( ) {
